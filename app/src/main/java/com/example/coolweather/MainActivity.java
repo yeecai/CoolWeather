@@ -8,7 +8,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 
-import java.util.List;
+import com.example.coolweather.service.AutoUpdateService;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,6 +23,9 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
             finish();
         }
+
+        Intent intent = new Intent(this, AutoUpdateService.class);
+        startService(intent);
     }
     @Override
     public void onBackPressed() {

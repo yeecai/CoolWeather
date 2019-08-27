@@ -15,6 +15,7 @@
     <TextView
         android:id="@+id/title_city"
         android:text="city"
+        android:textColor="#fff"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
@@ -24,6 +25,7 @@
     <TextView
         android:id="@+id/title_update_time"
         android:text="time"
+        android:textColor="#fff"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"

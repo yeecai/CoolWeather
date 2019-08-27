@@ -3,12 +3,14 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="#8000"
     android:layout_margin="15dp">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Air quality"
+        android:textColor="#fff"
         android:textSize="20sp"/>
 
     <LinearLayout
@@ -30,12 +32,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="40sp"
+                    android:textColor="#fff"
                     android:layout_gravity="center"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
+                    android:layout_gravity="center" android:textColor="#fff"
                     android:text="AQI index"/>
 
             </LinearLayout>
@@ -56,12 +59,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:textSize="40sp"
+                    android:textSize="40sp" android:textColor="#fff"
                     android:id="@+id/pm25_text"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
+                    android:layout_gravity="center" android:textColor="#fff"
                     android:text="PM2.5 index"/>
 
             </LinearLayout>

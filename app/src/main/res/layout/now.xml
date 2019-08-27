@@ -9,11 +9,13 @@
         android:id="@+id/degree_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="#fff"
         android:textSize="60sp"
         android:layout_gravity="end" />
 
     <TextView
         android:id="@+id/weather_info_text"
+        android:textColor="#fff"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="end"

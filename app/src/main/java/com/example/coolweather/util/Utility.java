@@ -74,8 +74,7 @@ public class Utility {
         return false;
     }
 
-
-     public static Weather handleweatherResponse(String response) {
+    public static Weather handleweatherResponse(String response) {
         try {
             JSONObject jsonObject = new JSONObject(response);
             JSONArray jsonArray = jsonObject.getJSONArray("HeWeather");

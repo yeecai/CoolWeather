@@ -3,17 +3,20 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#8000"
     android:layout_margin="10dp">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Forecast"
+        android:textColor="#fff"
         android:layout_margin="15dp"
         android:textSize="20sp"
         />
     <LinearLayout
         android:id="@+id/forecase_layout"
+        android:textColor="#fff"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
